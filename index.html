@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather-Data-Driven Art Projection</title>
+    <script src="config.js"></script>
+    <script src="p5.min.js"></script>
+    <script src="sketch.js"></script>
+</head>
+<body>
+    <form id="inputForm">
+        </select>
+        <label for="inputOne">Latitude:</label>
+        <input type="text" id="inputOne" name="inputOne">
+        <label for="inputTwo">Longitude:</label>
+        <input type="text" id="inputTwo" name="inputTwo">
+        <button type="button" onclick="useInputs()">Submit</button>
+    </form>
+
+    <script>
+        function useInputs() {
+            var inputOne = document.getElementById('inputOne').value;
+            var inputTwo = document.getElementById('inputTwo').value;
+            if (window.processInputs) {
+                window.processInputs(inputOne, inputTwo);
+            }
+        }
+    </script>
+    
+</body>
+</html>

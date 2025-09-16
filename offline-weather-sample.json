@@ -1,0 +1,11 @@
+{
+  "source": "offline-sample",
+  "current": {
+    "temperature": 65,
+    "uv_index": 3,
+    "wind_speed": 8,
+    "wind_degree": 240,
+    "cloudcover": 75
+  }
+}
+
