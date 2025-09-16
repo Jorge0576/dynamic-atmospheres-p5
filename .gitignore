@@ -1,0 +1,21 @@
+# Node modules (if you use npm/yarn)
+node_modules/
+
+# Mac system files
+.DS_Store
+
+# VS Code settings
+.vscode/
+
+# Sensitive config file (never commit your real API key)
+config.js
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+
+# p5.js build files (if you ever build custom versions)
+p5.min.js
+
+# System/IDE files
+*.env
